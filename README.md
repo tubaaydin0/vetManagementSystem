@@ -40,29 +40,25 @@ Projede Yapılan Temel İşlemler:
 ---  
 -------
 
-Hayvanların ve Sahiplerinin (customer) Yönetimi:  
-
+**Hayvanların ve Sahiplerinin (customer) Yönetimi:**  
 Hayvanları kaydetme, bilgilerini güncelleme, görüntüleme ve silme, hayvan sahiplerini kaydetme, bilgilerini güncelleme, görüntüleme ve silme (CRUD işlemleri).  
 Hayvan sahipleri isme göre filtrelenecek şekilde ve hayvan sahibinin sistemde kayıtlı tüm hayvanlarını görüntülemek için API end point'inin oluşturulması,  
 Hayvan sahibine göre filtrelenmesi.
 
-Uygulanan Aşıların Yönetimi:  
-
+**Uygulanan Aşıların Yönetimi:**  
 Hayvanlara uygulanan aşıları kaydetme, bilgilerini güncelleme, görüntüleme ve silme işlemleri(CRUD işlemleri).
 Eğer hastaya ait aynı tip aşının  aşı koruyuculuk bitiş tarihi daha gelmemiş ise sisteme yeni aşı girişinin engellenmesi,
 Hayvan id’sine göre belirli bir hayvana ait tüm aşı kayıtlarını listelemek için gerekli end pointin oluşturulması,
 Kullanıcının aşı koruyuculuk bitiş tarihi yaklaşan hayvanları listeleyebilmesi için girilen başlangıç ve bitiş tarihlerine göre aşı koruyuculuk tarihi bu aralıkta olan hayvanların listesini geri döndüren API end  point'inin oluşturulması.
 
-Randevu Yönetimi:  
-
+**Randevu Yönetimi:**  
 Hayvanların aşı ve muayene randevularının oluşturulması, bilgilerinin güncellenmesi, görüntülenmesi ve silinmesi(CRUD işlemleri).  
 Randevular sistemde tarih ve saat şeklinde tutulması.  
 Doktorların uygun olduğu  tarih ve saatlerde randevu oluşturulması. (Randevular saat başı olmaktadır.)  
 Randevu kaydı oluştururken doktorun girilen tarihte müsait günü olup olmadığı eğer ki müsait günü varsa randevu kayıtlarında girilen saatte başka bir randevusu olup olmadığının kontrolü.  
 Randevuların girilen tarih-doktor ve tarih-hayvan olarak filtrelenmesi.  
 
-Veteriner Doktor Yönetimi:  
-
+**Veteriner Doktor Yönetimi:**  
 Veteriner doktorların kaydedilmesi, bilgilerinin güncellenmesi, görüntülenmesi ve silinmesi(CRUD işlemleri).  
 Doktorların müsait günlerinin yönetimi.  
 Doktorların müsait günlerini ekleme, bilgilerini güncelleme, görüntüleme ve silme(CRUD işlemleri).
